@@ -1,7 +1,5 @@
 package tags.subtags;
 
-import java.net.URL;
-
 /**
  * @author Chuck Fon Lee
  */
