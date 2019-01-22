@@ -2,13 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="92fce3ef-e358-4533-9aa6-4f44d511cd3d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/tags/ThatTag.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AIML.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AIML.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/FileCreator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FileCreator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tags/Category.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tags/Category.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tags/subtags/ButtonTag.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tags/subtags/ButtonTag.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AIMLGeneration/AIML.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AIMLGeneration/AIML.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AIMLGeneration/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AIMLGeneration/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AIMLGeneration/tags/Category.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AIMLGeneration/tags/Category.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AIMLGeneration/tags/subtags/ButtonTag.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AIMLGeneration/tags/subtags/ButtonTag.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AIMLGeneration/tags/subtags/CardTag.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AIMLGeneration/tags/subtags/CardTag.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AIMLGeneration/tags/subtags/StringTag.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AIMLGeneration/tags/subtags/StringTag.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -181,7 +181,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds">
     <option name="x" value="-7" />
     <option name="width" value="974" />
     <option name="height" value="1087" />
@@ -228,7 +228,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548178257590" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548178806371" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -273,23 +273,30 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1548173015295</updated>
-      <workItem from="1548173018913" duration="5441000" />
+      <workItem from="1548173018913" duration="5684000" />
     </task>
+    <task id="LOCAL-00001" summary="That Tag toegevoegd">
+      <created>1548178483042</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1548178483042</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5441000" />
+    <option name="totallyTimeSpent" value="5684000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Image Layers" />
       <window_info id="Designer" />
       <window_info id="UI Designer" />
       <window_info id="Capture Tool" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12153518" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12153518" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Messages" weight="0.32917964" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
@@ -299,7 +306,7 @@
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32917964" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32606438" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32606438" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -317,6 +324,10 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="That Tag toegevoegd" />
+    <option name="LAST_COMMIT_MESSAGE" value="That Tag toegevoegd" />
   </component>
   <component name="editorHistoryManager">
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/src.zip!/java/io/File.java">
