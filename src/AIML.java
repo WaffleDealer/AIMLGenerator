@@ -1,10 +1,12 @@
 import tags.Category;
+import tags.Topic;
 
 import java.util.ArrayList;
 import java.util.List;
 
 public class AIML {
     List<Category> cats;
+    List<Topic> topics;
 
     public AIML() {
         cats = new ArrayList<>();
@@ -22,6 +24,12 @@ public class AIML {
             aimlBuilder.append('\n');
             aimlBuilder.append(cat.toString());
             aimlBuilder.append('\n');
+        }
+
+        for (Topic topic : topics) {
+            aimlBuilder.append("\n");
+            aimlBuilder.append(topic.toString());
+            aimlBuilder.append("\n");
         }
         aimlBuilder.append("</aiml>");
 
