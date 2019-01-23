@@ -2,16 +2,28 @@ package tags;
 
 import tags.subtags.Tag;
 
-public class Template {
-    Tag data;
+import java.util.ArrayList;
+import java.util.List;
 
-    public Template(Tag data) {
-        this.data = data;
+public class Template {
+    List<Tag> data;
+
+    public Template() {
+        this.data = new ArrayList<>();
     }
 
+    public void addTag(Tag t) {
+        data.add(t);
+    }
 
     @Override
     public String toString() {
-        return "<template>" + '\n' + data.toString()+ '\n' + "</template>";
+        StringBuilder templateBuilder = new StringBuilder();
+        templateBuilder.append("<template>");
+        for (Tag datum : data) {
+            templateBuilder.append(datum.toString());
+        }
+        templateBuilder.append("</template>");
+        return templateBuilder.toString();
     }
 }
