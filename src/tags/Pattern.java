@@ -13,6 +13,6 @@ public class Pattern {
 
     @Override
     public String toString() {
-        return "<pattern>" + '\n' + getUserInput() + '\n' + "</pattern>";
+        return "<pattern>" + '\n' + getUserInput().replaceAll("[?.!:,&]","") + '\n' + "</pattern>";
     }
 }

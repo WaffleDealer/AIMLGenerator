@@ -20,6 +20,9 @@ public class Main {
         Template reservatieTemplate = new Template();
         reservatieTemplate.addTag(new StringTag("U kunt een kamer reserveren door op een kamer te klikken en dan op één van de drie reservatieknoppen te drukken. De kamer zal automatisch worden gereserveerd."));
         reservatieTemplate.addTag(new ImageTag("https://s3.amazonaws.com/tinycards/image/60cacd94bfbd3795f72912ec254efb38"));
+        output.addCategory(new Category(new Pattern("Hoe kan ik een kamer reserveren?"),reservatieTemplate));
+
+        //
         //File pad aanpassen
         FileCreator.createAIMLFile(output);
     }
