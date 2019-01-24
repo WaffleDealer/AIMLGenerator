@@ -10,6 +10,7 @@ public class AIML {
 
     public AIML() {
         cats = new ArrayList<>();
+        topics = new ArrayList<>();
     }
 
     public void addCategory(Category c) {
@@ -31,6 +32,7 @@ public class AIML {
             aimlBuilder.append(topic.toString());
             aimlBuilder.append("\n");
         }
+
         aimlBuilder.append("</aiml>");
 
         return aimlBuilder.toString();
