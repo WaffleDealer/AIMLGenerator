@@ -20,6 +20,7 @@ public class AIML {
     @Override
     public String toString() {
         StringBuilder aimlBuilder = new StringBuilder();
+        aimlBuilder.append("<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n");
         aimlBuilder.append("<aiml version=\"2.0\">");
         for (Category cat : cats) {
             aimlBuilder.append('\n');

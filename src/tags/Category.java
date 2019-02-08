@@ -19,6 +19,10 @@ public class Category {
         this.that = that;
     }
 
+    public void setThat(ThatTag that) {
+        this.that = that;
+    }
+
     @Override
     public String toString() {
         StringBuilder categoryBuilder = new StringBuilder();

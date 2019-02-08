@@ -5,7 +5,7 @@ import java.io.IOException;
 public class FileCreator {
     public static void createAIMLFile(AIML output) throws IOException {
         //pas de File pad aan
-        File file = new File("c://users//waffl//Desktop//test.txt");
+        File file = new File("c://users//chuck//Desktop//test.txt");
         if (file.createNewFile()) {
             System.out.println("file Created");
         } else {
