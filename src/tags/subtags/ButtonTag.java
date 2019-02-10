@@ -15,14 +15,23 @@ public class ButtonTag implements Tag {
     }
 
     private String getText() {
+        if (text == null) {
+            return "";
+        }
         return "\n<text>\n" + text + "\n</text>";
     }
 
     private String getPostback() {
+        if (postback == null) {
+            return "";
+        }
         return "\n<postback>\n" + postback+ "\n</postback>";
     }
 
     private String getSomeUrl() {
+        if (someUrl == null) {
+            return "";
+        }
         return "\n<url>\n" + someUrl + "\n</url>";
     }
 
