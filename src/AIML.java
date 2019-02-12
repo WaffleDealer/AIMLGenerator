@@ -17,6 +17,10 @@ public class AIML {
         cats.add(c);
     }
 
+    public void addTopic(Topic t) {
+        topics.add(t);
+    }
+
     @Override
     public String toString() {
         StringBuilder aimlBuilder = new StringBuilder();

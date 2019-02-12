@@ -1,14 +1,19 @@
 package tags;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class Topic {
     String topicName;
     List<Category> cats;
 
-    public Topic(String topicName, List<Category> cats) {
+    public Topic(String topicName) {
         this.topicName = topicName;
-        this.cats = cats;
+        this.cats = new ArrayList<>();
+    }
+
+    public void addCategory(Category c) {
+        cats.add(c);
     }
 
     @Override
